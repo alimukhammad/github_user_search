@@ -34,8 +34,9 @@ form {
 	margin-bottom: 20px; 
 } 
 h1 { 
-	color: #00a136; 
+	color: #e88f21; 
 	font-size: 2.5rem; 
+    padding-top: 200px;
 	margin: auto; 
 	text-align: center; 
 	text-shadow: 2px 2px 4px
@@ -53,7 +54,7 @@ h1:hover {
 	margin-top: 20px; 
 	display: block; 
 	background-color: #f0e1c6; 
-	border: 2px solid #00a136; 
+	border: 2px solid #e88f21; 
 	border-radius: 7px; 
 	color: #333; 
 	font-weight: bold; 
@@ -70,12 +71,8 @@ h1:hover {
 		rgba(0, 0, 0, 0.2); 
 } 
 .card { 
-	max-width: 50%; 
-	background-color: rgb( 
-		141, 
-		240, 
-		243
-	); 
+	max-width: 80%; 
+	background-color: #fcbf62; 
 	border-radius: 20px; 
 	box-shadow: 0 5px 10px
 		rgba(0, 0, 0, 0.1); 
@@ -98,15 +95,9 @@ h1:hover {
 	color: #333; 
 	margin-left: 2rem; 
 	padding: 1rem; 
-	background-color: rgba( 
-		255, 
-		255, 
-		255, 
-		0.9
-	); 
+	background-color: #ffffffe6; 
 	border-radius: 10px; 
-	box-shadow: 0 0 10px
-		rgba(0, 0, 0, 0.2); 
+	box-shadow: 0 0 10px #00000033; 
 } 
 .user-info h2 { 
 	margin-top: 0; 
