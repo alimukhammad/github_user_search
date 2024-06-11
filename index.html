@@ -5,9 +5,12 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body class="mainBody">
-        <h1 class="profileTitle">Github Profile Search</h1>
-        <input type="text" id="search" class="searchBar" placeholder="Search a Github Username">
-        <div class="mainContainer">
+        <form class="inputForm" id="userInput">
+            <h1 class="profileTitle">Github Profile Search</h1>
+        
+            <input type="text" id="search" class="searchBar" autocomplete="off" placeholder="Search a Github Username">
+            <div class="mainContainer">
+        </form>
             <main id="main"></main> 
         </div>
         <script src="script.js"></script>
